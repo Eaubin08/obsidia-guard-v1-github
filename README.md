@@ -13,6 +13,7 @@ Obsidia Guard v1 est un **noyau de gouvernance décisionnelle gelé**, conçu po
 **démontrer formellement** qu’**aucune action ne peut être autorisée sans stabilité démontrée**.
 
 Le fait que ce dépôt **ne fasse rien de visible est volontaire**.
+📄 Les règles du noyau sont également décrites sous forme déclarative dans `POLICIES/obsidia_guard_v1.yaml`, à des fins de lecture et d’audit uniquement.
 
 ---
 
