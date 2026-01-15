@@ -1,0 +1,110 @@
+
+Autrement dit :
+
+> Une action ne peut être autorisée que si la stabilité du système est formellement démontrée.
+
+En cas de doute, de contradiction ou d’instabilité,
+la seule réponse valide est **HOLD**.
+
+Cet invariant est :
+- non paramétrable,
+- non désactivable,
+- non contournable.
+
+---
+
+## 🔒 Statut du noyau
+
+- Noyau : **GELÉ**
+- Modifications : **rupture de version majeure uniquement**
+- Extensions : **hors périmètre**
+- Usage prévu : **audit, recherche, gouvernance de systèmes critiques**
+
+Ce noyau est considéré comme **stable par construction**,
+et ne fait plus l’objet d’ajouts fonctionnels.
+
+---
+
+## 🧪 Résultats de validation
+
+Le noyau a été soumis à :
+
+- attaques coordonnées multi-agents
+- chaos prolongé
+- dérive temporelle (fatigue)
+- contradictions volontaires
+- tentatives d’override humain
+- retrait à chaud d’extensions simulées
+
+➡️ **Aucun faux ACT n’a été observé**  
+➡️ L’invariant central est resté intact dans tous les scénarios testés
+
+Les preuves sont fournies dans le dépôt.
+
+---
+
+## 👥 Public visé
+
+Ce dépôt s’adresse principalement à :
+
+- chercheurs en sécurité
+- ingénieurs sûreté / systèmes critiques
+- spécialistes des méthodes formelles
+- auditeurs indépendants
+- institutions et régulateurs
+
+Si vous recherchez :
+- une démo,
+- un produit,
+- un système clé en main,
+
+👉 **ce dépôt n’est pas le bon point d’entrée**.
+
+---
+
+## ⚠️ Disclaimer de périmètre et de responsabilité
+
+Obsidia Guard v1 est fourni **à des fins de recherche, d’analyse et d’audit**.
+
+Il n’est **pas destiné à être utilisé directement en production**,
+ni à piloter un système réel sans couches supplémentaires.
+
+Toute utilisation opérationnelle nécessite :
+- des extensions séparées,
+- une intégration spécifique au contexte,
+- des contrôles supplémentaires,
+- une validation indépendante.
+
+L’auteur décline toute responsabilité quant à une utilisation
+hors du périmètre explicitement défini ci-dessus.
+
+---
+
+## ⚖️ Droits & propriété intellectuelle
+
+Ce dépôt, ses contenus, ses formulations et ses modèles
+sont protégés par le droit d’auteur.
+
+- Toute reproduction substantielle,
+- toute réutilisation commerciale,
+- toute intégration dans un produit tiers,
+
+nécessite une **autorisation explicite préalable** de l’auteur.
+
+Les audits, analyses et critiques sont autorisés
+dans le cadre d’un usage **non commercial et académique**.
+
+Voir le fichier `LICENSE` pour les conditions détaillées.
+
+---
+
+## 🔗 Relation avec d’autres dépôts
+
+Les cas d’usage, démonstrations, intégrations techniques ou applications
+reposant sur ce noyau sont volontairement maintenus
+dans des **dépôts séparés**.
+
+Ce noyau :
+- **ne dépend d’aucun usage**
+- **ne référence aucune implémentation**
+- **reste souverain et autonome**
